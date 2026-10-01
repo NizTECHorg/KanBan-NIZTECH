@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Supabase CLI (SQL scripts, migrations e config na raiz — não ignore src/lib/supabase/)
+/supabase/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
